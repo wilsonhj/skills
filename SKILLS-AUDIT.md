@@ -83,7 +83,7 @@ claude plugins install mattpocock-skills
 
 Gets all 25 promoted skills (Tier 1 + Tier 2 + `teach`, `to-questionnaire`, `wizard`), namespaced, auto-updated from upstream.
 
-**B. Your fork as the plugin source (you control the list):** trim `.claude-plugin/plugin.json`'s `skills` array in this fork to the ones you want, then:
+**B. Your fork as the plugin source (you control the list):** trim `.claude-plugin/plugin.json`'s `skills` array in this fork to the ones you want (done: it now lists the Tier 1 set), then:
 
 ```
 /plugin marketplace add wilsonhj/skills
